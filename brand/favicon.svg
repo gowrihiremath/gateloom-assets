@@ -2,16 +2,22 @@
   <!--
     The Gateloom mark: a dot-matrix G (the brand's hardware voice, Doto) with
     one live pixel — the signal that entered through the G's open mouth and
-    landed in the gate. Adaptive: ink-on-transparent in light tabs, cream in dark.
+    landed in the gate — and the weft thread it rode in on (owner's call: the
+    favicon carries the weft, amending the original 96px+ rule).
+    Adaptive: ink-on-transparent in light tabs, cream in dark.
   -->
   <style>
     .px { fill: #23221F; }
     .live { fill: #9B8FC4; }
+    .weft { stroke: #9B8FC4; }
     @media (prefers-color-scheme: dark) {
       .px { fill: #EDEAE0; }
       .live { fill: #B3A6E0; }
+      .weft { stroke: #B3A6E0; }
     }
   </style>
+  <!-- the weft: enters at the left edge, through the mouth, to the live pixel -->
+  <line class="weft" x1="0" y1="16" x2="19.6" y2="16" stroke-width="1.6" stroke-dasharray="3 3.5"/>
   <!-- row 0 : .###. -->
   <rect class="px" x="8.4"  y="2.8"  width="4" height="4" rx="1"/>
   <rect class="px" x="14"   y="2.8"  width="4" height="4" rx="1"/>
