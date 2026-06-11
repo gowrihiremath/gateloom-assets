@@ -1,0 +1,32 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32" role="img" aria-label="Gateloom">
+  <!--
+    The Gateloom mark: a dot-matrix G (the brand's hardware voice, Doto) with
+    one live pixel — the signal that entered through the G's open mouth and
+    landed in the gate. Adaptive: ink-on-transparent in light tabs, cream in dark.
+  -->
+  <style>
+    .px { fill: #23221F; }
+    .live { fill: #9B8FC4; }
+    @media (prefers-color-scheme: dark) {
+      .px { fill: #EDEAE0; }
+      .live { fill: #B3A6E0; }
+    }
+  </style>
+  <!-- row 0 : .###. -->
+  <rect class="px" x="8.4"  y="2.8"  width="4" height="4" rx="1"/>
+  <rect class="px" x="14"   y="2.8"  width="4" height="4" rx="1"/>
+  <rect class="px" x="19.6" y="2.8"  width="4" height="4" rx="1"/>
+  <!-- row 1 : #.... -->
+  <rect class="px" x="2.8"  y="8.4"  width="4" height="4" rx="1"/>
+  <!-- row 2 : #..## (the mouth stays open; the signal pixel is live) -->
+  <rect class="px" x="2.8"  y="14"   width="4" height="4" rx="1"/>
+  <rect class="live" x="19.6" y="14" width="4" height="4" rx="1"/>
+  <rect class="px" x="25.2" y="14"   width="4" height="4" rx="1"/>
+  <!-- row 3 : #...# -->
+  <rect class="px" x="2.8"  y="19.6" width="4" height="4" rx="1"/>
+  <rect class="px" x="25.2" y="19.6" width="4" height="4" rx="1"/>
+  <!-- row 4 : .###. -->
+  <rect class="px" x="8.4"  y="25.2" width="4" height="4" rx="1"/>
+  <rect class="px" x="14"   y="25.2" width="4" height="4" rx="1"/>
+  <rect class="px" x="19.6" y="25.2" width="4" height="4" rx="1"/>
+</svg>

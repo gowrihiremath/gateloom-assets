@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="-16 0 48 32" role="img" aria-label="Gateloom mark, dark">
+  <!-- Dark variant: cream pixels, brightened lavender, on the warm near-black. -->
+  <rect x="-16" y="0" width="48" height="32" fill="#14130F"/>
+  <line x1="-14" y1="16" x2="19.6" y2="16" stroke="#B3A6E0" stroke-width="1.6" stroke-dasharray="3 3.5"/>
+  <rect x="8.4"  y="2.8"  width="4" height="4" rx="1" fill="#EDEAE0"/>
+  <rect x="14"   y="2.8"  width="4" height="4" rx="1" fill="#EDEAE0"/>
+  <rect x="19.6" y="2.8"  width="4" height="4" rx="1" fill="#EDEAE0"/>
+  <rect x="2.8"  y="8.4"  width="4" height="4" rx="1" fill="#EDEAE0"/>
+  <rect x="2.8"  y="14"   width="4" height="4" rx="1" fill="#EDEAE0"/>
+  <rect x="19.6" y="14"   width="4" height="4" rx="1" fill="#B3A6E0"/>
+  <rect x="25.2" y="14"   width="4" height="4" rx="1" fill="#EDEAE0"/>
+  <rect x="2.8"  y="19.6" width="4" height="4" rx="1" fill="#EDEAE0"/>
+  <rect x="25.2" y="19.6" width="4" height="4" rx="1" fill="#EDEAE0"/>
+  <rect x="8.4"  y="25.2" width="4" height="4" rx="1" fill="#EDEAE0"/>
+  <rect x="14"   y="25.2" width="4" height="4" rx="1" fill="#EDEAE0"/>
+  <rect x="19.6" y="25.2" width="4" height="4" rx="1" fill="#EDEAE0"/>
+</svg>

@@ -1,0 +1,29 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="-16 0 48 32" role="img" aria-label="Gateloom mark, animated">
+  <!--
+    Animated variant: the weft thread crawls into the G's mouth and the landed
+    signal pixel breathes. CSS animations run even in <img> contexts (GitHub
+    previews included). Light palette; pair with -dark for dark surfaces.
+  -->
+  <style>
+    @keyframes gl-crawl { to { stroke-dashoffset: -13; } }
+    @keyframes gl-breathe { 0%, 100% { opacity: 1; } 50% { opacity: 0.55; } }
+    .weft { animation: gl-crawl 1.2s linear infinite; }
+    .landed { animation: gl-breathe 2.6s ease-in-out infinite; }
+    @media (prefers-reduced-motion: reduce) {
+      .weft, .landed { animation: none; }
+    }
+  </style>
+  <line class="weft" x1="-14" y1="16" x2="19.6" y2="16" stroke="#9B8FC4" stroke-width="1.6" stroke-dasharray="3 3.5"/>
+  <rect x="8.4"  y="2.8"  width="4" height="4" rx="1" fill="#23221F"/>
+  <rect x="14"   y="2.8"  width="4" height="4" rx="1" fill="#23221F"/>
+  <rect x="19.6" y="2.8"  width="4" height="4" rx="1" fill="#23221F"/>
+  <rect x="2.8"  y="8.4"  width="4" height="4" rx="1" fill="#23221F"/>
+  <rect x="2.8"  y="14"   width="4" height="4" rx="1" fill="#23221F"/>
+  <rect class="landed" x="19.6" y="14" width="4" height="4" rx="1" fill="#9B8FC4"/>
+  <rect x="25.2" y="14"   width="4" height="4" rx="1" fill="#23221F"/>
+  <rect x="2.8"  y="19.6" width="4" height="4" rx="1" fill="#23221F"/>
+  <rect x="25.2" y="19.6" width="4" height="4" rx="1" fill="#23221F"/>
+  <rect x="8.4"  y="25.2" width="4" height="4" rx="1" fill="#23221F"/>
+  <rect x="14"   y="25.2" width="4" height="4" rx="1" fill="#23221F"/>
+  <rect x="19.6" y="25.2" width="4" height="4" rx="1" fill="#23221F"/>
+</svg>

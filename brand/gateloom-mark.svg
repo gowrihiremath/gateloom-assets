@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="-16 0 48 32" role="img" aria-label="Gateloom mark">
+  <!--
+    The full Gateloom mark, light variant: the dot-matrix G with the weft —
+    a live thread entering through the G's open mouth and landing as the
+    signal pixel. Gates, woven together.
+  -->
+  <!-- the weft thread: enters from outside, through the mouth, to the pixel -->
+  <line x1="-14" y1="16" x2="19.6" y2="16" stroke="#9B8FC4" stroke-width="1.6" stroke-dasharray="3 3.5"/>
+  <!-- row 0 -->
+  <rect x="8.4"  y="2.8"  width="4" height="4" rx="1" fill="#23221F"/>
+  <rect x="14"   y="2.8"  width="4" height="4" rx="1" fill="#23221F"/>
+  <rect x="19.6" y="2.8"  width="4" height="4" rx="1" fill="#23221F"/>
+  <!-- row 1 -->
+  <rect x="2.8"  y="8.4"  width="4" height="4" rx="1" fill="#23221F"/>
+  <!-- row 2 : the mouth + the live landing pixel -->
+  <rect x="2.8"  y="14"   width="4" height="4" rx="1" fill="#23221F"/>
+  <rect x="19.6" y="14"   width="4" height="4" rx="1" fill="#9B8FC4"/>
+  <rect x="25.2" y="14"   width="4" height="4" rx="1" fill="#23221F"/>
+  <!-- row 3 -->
+  <rect x="2.8"  y="19.6" width="4" height="4" rx="1" fill="#23221F"/>
+  <rect x="25.2" y="19.6" width="4" height="4" rx="1" fill="#23221F"/>
+  <!-- row 4 -->
+  <rect x="8.4"  y="25.2" width="4" height="4" rx="1" fill="#23221F"/>
+  <rect x="14"   y="25.2" width="4" height="4" rx="1" fill="#23221F"/>
+  <rect x="19.6" y="25.2" width="4" height="4" rx="1" fill="#23221F"/>
+</svg>
